@@ -1,0 +1,216 @@
+/* font family start  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font family end  */
+/* common css start  */
+body{
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-weight: 400;
+color: #000000;
+}
+/* common css end */
+header{
+  padding: 15px 0;
+  background-color: #F0FFF0;
+}
+.cnav{}
+.logo{}
+.nbtn:focus{
+  box-shadow: none;
+}
+.menu ul li a{
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000 !important;
+  padding:0 20px !important;
+}
+.btn_cm{
+background-color: #21B573 !important;
+border-radius: 33px;
+font-family: 'Roboto', sans-serif;
+line-height: 19px;
+}
+.btn_sign{
+  margin-left: 10px;
+  padding: 12px 28px;
+}
+.btn_cm:hover{
+  background-color: #FD511A !important;
+  color: #FFFFFF;
+}
+.btn_cm:active{
+  background-color: #FD511A !important;
+  color: #FFFFFF !important;
+}
+/* baner start  */
+.baner{
+  background-color: #F0FFF0;
+  padding: 10px 0 65px;
+}
+
+.b_content{}
+.b_p1{
+  color: #FD511A;
+  line-height: 24px;
+}
+.b_h1{
+  margin: 10px 0 20px;
+  padding: 0 30px 0 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 70px;
+}
+.b_h1 span{
+  color: #21B573;
+}
+.b_p2{
+  line-height: 36px;
+}
+.b_btn{
+  margin-top: 14px;
+  padding: 12px 36px;
+}
+
+.b_img{}
+.b_img img{}
+/* baner start  */
+/* feature start  */
+.feature{
+}
+.c_padding{
+ padding:0 0 100px;
+}
+.f_item{
+  margin: 40px 0 0;
+  background-color:#F0FFF0;
+  border-radius: 10px;
+  padding: 55px 0 50px;
+  text-align: center;
+  transition: .33s;
+}
+.f_item:hover{
+  background-color: white;
+  box-shadow: 0px 20px 40px rgb(0 0 0 / 10%);
+}
+.f_img{
+  width: 75px;
+  height: 80px;
+  margin: 0 auto ;
+}
+.f_img img{}
+.f_h2{
+  margin: 20px 0 0;
+font-size: 24px;
+font-weight: 500;
+color: #000000;
+line-height: 36px;
+
+
+}
+.f_p{}
+/* feature start  */
+/* courses startt  */
+.courses{}
+.c_titel{}
+.c_titel h1{ 
+font-size: 36px;
+font-weight: 700;
+color: #000000;
+line-height: 54px;
+}
+.c_item{
+  margin: 60px 0 0;
+  padding: 24px 20px 30px;
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1);
+border-radius: 18px;
+}
+.c_img{
+}
+.c_img img{}
+.c_h2{
+  margin: 20px 0 5px  ;
+font-size: 24px;
+font-weight: 500;
+color: #000000;
+line-height: 36px;
+
+}
+.c_p{
+  line-height: 24px;
+}
+.btn_c{
+  margin: 20px 0 35px;
+  padding: 8px 28px;
+}
+
+ .c_footer{}
+ .c_left{}
+ .c_left ul{}
+ .lit:not(:last-child){}
+
+ .c_left ul li{}
+ .c_left ul li img{}
+ .c_left ul li p, .c_right ul li p{
+font-weight: 500;
+line-height: 24px;
+ }
+
+ .c_right{}
+  
+ /* testimoni srart  */
+ .t_item{
+  margin-top: 60px;
+ }
+ .t_img{}
+ .t_img img{}
+ .t_text{}
+ .t_text p{
+  line-height: 30px;
+ }
+ /* testimoni end  */
+ /* footer top start  */
+ .footer_top{
+  padding: 55px 0 55px;
+  background-color:#282531;
+
+ }
+ .ft_ditels{
+  padding-right: 120px;
+ }
+ .ft_ditels p{
+  color: #F0FFF0;
+  line-height: 36px;
+ }
+
+ .ft_links{}
+ .ft_links h2{
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #F0FFF0;
+  line-height: 30px;
+ }
+ .ft_links ul{}
+ .ft_links ul li{}
+ .ft_links ul li a{
+  margin-bottom: 8px;
+  display: block;
+  color: #F0FFF0;
+  text-decoration: none;
+ }
+ /* footer top end */
+ /* footer start  */
+ footer{
+  padding: 25px 0 30px;
+  background-color: #282531;
+ }
+ footer p{
+  color: #F0FFF0;
+  line-height: 30px;
+ }
+ footer p a{
+  color: #F0FFF0;
+ }
+ /* footer end  */

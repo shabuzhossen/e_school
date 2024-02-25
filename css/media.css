@@ -1,0 +1,251 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* header start  */
+header {
+    padding: 0;
+}
+.logo {
+    width: 190px;
+}
+.menu ul li a {
+    padding: 0 10px !important;
+    margin-bottom: 5px;
+}
+.btn_sign {
+    margin-left: 5px;
+    padding: 12px 28px;
+}
+    /* baner start  */
+
+ .b_content {
+text-align: center;
+}
+
+.b_h1 {
+    padding: 0;
+     font-size: 30px;
+    line-height: 45px;
+}
+.b_p2 {
+    padding: 0;
+    line-height: 30px;
+}
+
+.b_img img {
+margin-bottom: 30px;
+padding: 0 px;
+}
+/* feature start  */
+.c_padding{
+    padding: 0 0 60px ;
+}
+.f_item {
+ margin: 35px 0 0;
+padding: 55px 0 40px;
+}
+.f_h2 {
+font-size: 20px;
+}
+
+.f_img {
+    width: 65px;
+    height: 70px;
+}
+/* courses+testimoni */
+.c_titel h1 {
+    font-size: 30px;
+    line-height: 44px;
+}
+.c_item {
+    margin: 30px 0px 0;
+    padding: 15px;
+}
+.c_h2{
+font-size: 20px;
+}
+.btn_c {
+margin: 20px 0;
+}
+.lit:not(:last-child){
+ margin-right: 0;
+}
+.c_left ul li img, .c_right ul li img{
+width: 19px;
+}
+.c_left ul li p, .c_right ul li p {
+    font-weight: 400;
+    font-size: 14px;
+}
+/* testimoni start  */
+.t_item {
+    margin-top: 30px;
+}
+.t_img {
+    padding: 0 50px 20px;
+}
+.t_text p {
+    text-align: center;
+}
+/* footer-top start  */
+.footer_top {
+padding: 55px 0 20px;
+text-align: center;
+}
+.ft_ditels {
+    padding: 0px;
+    margin-bottom: 35px;
+}
+.ft_links {
+    margin-bottom: 35px; 
+}
+
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* baner start  */
+ .b_content {
+text-align: center;
+}
+
+.b_h1 {
+    padding: 0 70px;
+     font-size: 36px;
+    line-height: 55px;
+}
+.b_p2 {
+    padding: 0 30px;
+    line-height: 30px;
+}
+
+.b_img img {
+margin-bottom: 30px;
+padding: 0 50px;
+}
+/* feature start  */
+.c_padding{
+    padding: 0 0 60px ;
+}
+.f_item {
+ margin: 35px 0 0;
+padding: 55px 0 40px;
+}
+.f_h2 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.f_img {
+    width: 65px;
+    height: 70px;
+}
+/* courses+testimoni */
+.c_titel h1 {
+    font-size: 30px;
+    line-height: 44px;
+}
+.c_item {
+    margin: 30px 30px 0;
+}
+/* testmoni start  */
+.t_item {
+    margin-top: 30px;
+}
+.t_img {
+    padding: 0 120px 20px;
+}
+.t_text p {
+    text-align: center;
+}
+/* footer-top start  */
+.footer_top {
+text-align: center;
+}
+.ft_ditels {
+    padding: 0px 70px 35px;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* header start  */
+.menu ul li a {
+    padding: 0 10px !important;
+    margin-bottom: 5px;
+}
+    .btn_sign {
+    margin-left: 5px;   
+}
+/* baner start  */
+.b_content {
+text-align: center;
+}
+
+.b_h1 {
+    padding: 0 100px;
+}
+.b_p2 {
+    padding: 0 60px;
+}
+
+.b_img img {
+margin-bottom: 30px;
+padding: 0 70px;
+}
+/* feature start  */
+.c_padding{
+    padding: 0 0 80px ;
+}
+/* courses strat  */
+.c_item {
+    margin: 40px 120px 0;
+}
+/* testimoni start  */
+.t_item {
+margin-top: 40px;
+}
+/* footer-top start  */
+.footer_top {
+text-align: center;
+}
+.ft_ditels {
+    padding: 0px 80px 35px;
+}
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+/* feature start  */
+.f_h2{font-size: 20px;
+}
+/* courses strat  */
+.lit:not(:last-child){
+    margin-right: 0;
+}
+.c_left ul li img, .c_right ul li img{
+width: 20px;
+}
+.c_left ul li p, .c_right ul li p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+ 
+ }
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px)  {
+/* baner start  */
+.b_h1 {
+padding-right: 100px;
+}
+/* footer-top start  */
+.ft_ditels {
+    padding-right: 130px;
+}
+}
